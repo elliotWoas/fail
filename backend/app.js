@@ -30,7 +30,6 @@ const admin = new AdminJS({})
 
 const adminRouter = AdminJSExpress.buildRouter(admin)
   app.use(admin.options.rootPath, adminRouter)
-  app.use(admin.options.rootPath, adminRouter)
 
 
 
